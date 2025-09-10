@@ -17,3 +17,6 @@ export const authOptions = {
 
 const handler = NextAuth(authOptions);
 export { handler as GET, handler as POST };
+
+
+// app/api/boards/[boardId]/search/route.ts
